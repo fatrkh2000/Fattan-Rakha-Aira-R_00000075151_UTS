@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Idle Clicker Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+            <ul>
+              <li><a href="#" id="main-game">Main Game</a></li>
+              <li><a href="about.html" >About Us</a> &nbsp</li>             
+            </ul>
+          </nav>
+		<h1>Idle Clicker Game</h1>
+	</header>
+	
+	<main>
+		<div class="score">
+			<h2>Points :</h2>
+			<p id="score">0</p>
+		</div>
+		
+		<div class="clicker-container">
+			<img src="aset/benyek.png" alt="Tahu" class="clicker" onclick="addScore()" />
+			<p>Click me!</p>
+		</div>
+		
+		<div class="upgrades">
+			<h3>Upgrades :</h3>
+			<ul>
+				<li>
+					<p>Auto Smash + 1</p>
+					<p>Cost: 10</p>
+					<button onclick="buyUpgrade(10, 0.1)">Buy</button>
+				</li>
+				<li>
+					<p>Auto Smash + 5</p>
+					<p>Cost: 50</p>
+					<button onclick="buyUpgrade(50, 0.5)">Buy</button>
+				</li>
+				<li>
+					<p>Auto Smash + 10</p>
+					<p>Cost: 100</p>
+					<button onclick="buyUpgrade(100, 1)">Buy</button>
+				</li>
+			</ul>
+		</div>
+	</main>
+	
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body{
+  background: #8c7ae6;
+}
+
+.wrapper{
+  margin-top: 60px;
+  text-align: center;
+}
+
+.wrapper h1{
+  font-family: 'Yatra One', cursive;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  background: #fff;
+  padding: 20px 10px;
+}
+
+.our_team .team_member .member_img{
+  background: #e9e5fa;  
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.our_team .team_member h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 10px;
+}
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.our_team .team_member .member_img .social_media{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0,0,0,0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+   transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item{
+  margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab{
+  color: #8c7ae6;
+  font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media{
+  transform: scale(1);
+}
+.button{
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  margin: 0 auto; /* this centers the button */
+}
+
+</style>
+</head>
+<body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <div class="wrapper">
+        <h1>Founders</h1>
+        <div class="our_team">
+            <div class="team_member">
+              <div class="member_img">
+                 <img src="aset/Larry_the_Lobster_Nickelodeon_1.webp" alt="our_team">
+                <div class="social_media">
+                   <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                   <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                   <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                 </div>
+              </div>
+              <h3>Terence</h3>
+              <span>CEO</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+            </div>
+            <div class="team_member">
+               <div class="member_img">
+                 <img src="aset/ridho-removebg-preview.png" alt="our_team">
+                 <div class="social_media">
+                   <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                   <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                   <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                 </div>
+              </div>
+              <h3>Ridho</h3>
+              <span>Janitor</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+          </div>
+            <div class="team_member">
+               <div class="member_img">
+                 <img src="aset/didi-removebg-preview.png" alt="our_team">
+                 <div class="social_media">
+                   <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                   <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                   <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                 </div>
+              </div>
+              <h3>Didi</h3>
+              <span>CEO</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+          </div>
+            <div class="team_member">
+               <div class="member_img">
+                 <img src="aset/fattan-removebg-preview.png" alt="our_team">
+                 <div class="social_media">
+                   <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+                   <div class="twitter item"><i class="fab fa-twitter"></i></div>
+                   <div class="instagram item"><i class="fab fa-instagram"></i></div>
+                 </div>
+              </div>
+              <h3>Fattan</h3>
+              <span>CEO</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+          </div>  
+        </div>
+    </div>
+      <a href="index.html" class="button">Main Game</a>
+</body>
+</html>
